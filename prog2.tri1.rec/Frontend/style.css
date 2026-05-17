@@ -1,0 +1,17 @@
+* { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body { margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+header { background-color: #2c3e50; color: white; padding: 1.5rem; text-align: center; }
+main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+.card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1.5rem; }
+.hidden { display: none !important; }
+.stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; text-align: center; }
+.stat-item { background: #ecf0f1; padding: 1rem; border-radius: 8px; font-weight: bold; }
+input[type="text"], input[type="number"] { width: 100%; padding: 0.8rem; margin-top: 0.5rem; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+ul { list-style: none; padding: 0; margin-top: 1rem; }
+li { display: flex; justify-content: space-between; align-items: center; padding: 0.8rem; border-bottom: 1px solid #eee; }
+.btn { padding: 0.6rem 1.2rem; border: none; border-radius: 4px; cursor: pointer; font-weight: bold; }
+.btn-select { background-color: #3498db; color: white; }
+.btn-confirm { background-color: #2ecc71; color: white; width: 100%; padding: 1rem; font-size: 1.1rem; }
+.btn-cancel { background-color: #e74c3c; color: white; width: 100%; padding: 1rem; margin-top: 0.5rem; font-size: 1.1rem; }
+.form-group { margin-top: 1rem; margin-bottom: 1.5rem; }
+.guest-name { font-size: 1.2rem; padding: 1rem; background: #e8f8f5; border-radius: 4px; }

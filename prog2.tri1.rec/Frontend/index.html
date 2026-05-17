@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmação de Evento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><h1>Confirmação de Participação</h1></header>
+  <main>
+    <section class="card" id="stats-section">
+      <h2>Estatísticas Gerais</h2>
+      <div class="stats-grid" id="stats"></div>
+    </section>
+
+    <section class="card" id="search-section">
+      <h2>Encontre o seu nome</h2>
+      <input type="text" id="search-input" placeholder="Digite seu nome (ex: Ana)...">
+      <ul id="guest-list"></ul>
+    </section>
+
+    <section class="card hidden" id="confirm-section">
+      <h2>Confirmar Presença</h2>
+      <p class="guest-name">Convidado(a): <strong id="selected-name"></strong></p>
+      <div class="form-group">
+        <label>Quantidade de acompanhantes:</label>
+        <input type="number" id="companions-input" min="0" value="0">
+      </div>
+      <div class="actions">
+        <button class="btn btn-confirm" id="confirm-btn">Confirmar Participação</button>
+        <button class="btn btn-cancel" id="cancel-btn">Voltar</button>
+      </div>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

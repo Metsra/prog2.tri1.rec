@@ -1,0 +1,32 @@
+[
+  {
+    "nome": "Ana",
+    "confirmado": true,
+    "acompanhantes": 10
+  },
+  {
+    "nome": "Carlos",
+    "confirmado": true,
+    "acompanhantes": 2
+  },
+  {
+    "nome": "Gustavo",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Daniel",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "Maria",
+    "confirmado": false,
+    "acompanhantes": 0
+  },
+  {
+    "nome": "João",
+    "confirmado": false,
+    "acompanhantes": 0
+  }
+]

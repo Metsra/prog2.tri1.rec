@@ -1,0 +1,39 @@
+# dependências (bun install)
+node_modules
+
+# ficheiros de saída e compilação
+out
+dist
+*.tgz
+
+# cobertura de testes
+coverage
+*.lcov
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun.log
+
+# variáveis de ambiente (segurança)
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IDEs (editores de código)
+.idea
+.vscode/
+
+# configurações geradas pelo sistema operativo
+.DS_Store
+Thumbs.db
